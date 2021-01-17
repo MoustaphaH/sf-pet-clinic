@@ -2,17 +2,17 @@ package mdev.springframework.sfpetclinic.Model;
 
 import java.time.LocalDate;
 
-public class Pet {
-    private PetType petTypr;
+public class Pet extends BaseEntity{
+    private PetType petType;
     private Owner owner;
     private LocalDate birthDate;
 
-    public PetType getPetTypr() {
-        return petTypr;
+    public PetType getPetType() {
+        return petType;
     }
 
-    public void setPetTypr(PetType petTypr) {
-        this.petTypr = petTypr;
+    public void setPetType(PetType petType) {
+        this.petType = petType;
     }
 
     public Owner getOwner() {
