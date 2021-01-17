@@ -14,7 +14,7 @@
     </parent>
     <groupId>mdev.springframework</groupId>
     <artifactId>sf-pet-clinic</artifactId>
-    <version>0.0.1</version>
+    <version>0.0.2-SNAPSHOT</version>
     <name>sf-pet-clinic</name>
     <description>Pet Clinic Database Application</description>
 
@@ -42,9 +42,4 @@
             </plugin>
         </plugins>
     </build>
-
-
-  <scm>
-    <tag>sf-pet-clinic-0.0.1</tag>
-  </scm>
 </project>
