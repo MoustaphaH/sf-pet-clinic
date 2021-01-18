@@ -5,9 +5,7 @@ import mdev.springframework.sfpetclinic.Model.Vet;
 
 import java.util.Set;
 
-public interface VetService {
-    Vet findById(Long id);
-    Vet save(Vet vet);
-    Set<Owner> findAll();
+public interface VetService extends CrudService<Vet, Long>{
+
 
 }
