@@ -1,6 +1,5 @@
 package mdev.springframework.sfpetclinic.Services;
 
-import org.hibernate.boot.model.naming.IllegalIdentifierException;
 
 import java.util.Set;
 
